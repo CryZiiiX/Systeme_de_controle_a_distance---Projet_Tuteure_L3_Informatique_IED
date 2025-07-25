@@ -145,4 +145,4 @@ PROGRAMMES FINAUX/
 
 ---
 
-*Projet réalisé dans le cadre des études L3 Informatique IED* 
+*Projet réalisé dans le cadre des études ( PROJET TUTEURE ) L3 Informatique IED* 
