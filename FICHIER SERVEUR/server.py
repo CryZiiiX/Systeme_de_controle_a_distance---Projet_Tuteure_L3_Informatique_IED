@@ -48,7 +48,7 @@ lock = threading.Lock()
 # Configuration réseau du serveur
 # =============================================================================
 
-ip_address = '192.168.1.58'    # Adresse IP du serveur
+ip_address = '192.***.*.**'    # Adresse IP du serveur
 port_number = 5001            # Port du serveur
 thread_index = 0               # Index initial pour la gestion des threads
 
