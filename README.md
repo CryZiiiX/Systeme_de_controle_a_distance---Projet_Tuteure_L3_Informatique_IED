@@ -1,6 +1,6 @@
 # Projet Tuteuré - Système de Contrôle à Distance
 
-## 📋 Description
+## Description
 
 Ce projet implémente un système de contrôle à distance composé d'un serveur de commande et de clients agents. Il a été développé dans le cadre du cours "PROJET TUTEURE" L3 INFORMATIQUE IED.
 
@@ -8,7 +8,7 @@ Ce projet implémente un système de contrôle à distance composé d'un serveur
 **Version :** V1  
 **Licence :** Projet académique IED
 
-## 🏗️ Architecture du Projet
+## Architecture du Projet
 
 ### FICHIER SERVEUR/
 Contient tous les composants du serveur de contrôle :
@@ -36,7 +36,7 @@ Version invisible des agents clients :
 ### FICHIERS CLIENTS VISIBLE & TESTS/
 Version visible pour tests et développement (mêmes fichiers que la version invisible)
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 ### Serveur
 - **Interface graphique** complète pour la gestion
@@ -54,7 +54,7 @@ Version visible pour tests et développement (mêmes fichiers que la version inv
 - **Auto-configuration** de l'environnement
 - **Extraction de données système**
 
-## 🛠️ Installation et Utilisation
+## Installation et Utilisation
 
 ### Prérequis
 - Python 3.x
@@ -79,7 +79,7 @@ python3 RamBooster.py
 # Exécuter RunInvisible.vbs ou RamBooster.exe
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Le serveur utilise une configuration réseau TCP/IP avec gestion automatique des ports et adresses IP. La base de données SQLite stocke :
 - Informations des agents connectés
@@ -87,14 +87,14 @@ Le serveur utilise une configuration réseau TCP/IP avec gestion automatique des
 - Logs d'activité
 - Commandes exécutées
 
-## ⚠️ Avertissements
+## Avertissements
 
 Ce projet est développé à des fins éducatives dans le cadre d'un projet tuteuré. L'utilisation de ce système doit respecter :
 - Les lois locales sur la surveillance et la vie privée
 - Les politiques de sécurité informatique
 - L'autorisation explicite des utilisateurs surveillés
 
-## 📁 Structure des Fichiers
+## Structure des Fichiers
 
 ```
 PROGRAMMES FINAUX/
@@ -131,7 +131,7 @@ PROGRAMMES FINAUX/
     └── mon_icone.ico
 ```
 
-## 🔍 Technologies Utilisées
+## Technologies Utilisées
 
 - **Python 3** - Langage principal
 - **Flask** - Framework web pour l'interface
