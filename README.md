@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet implémente un système de contrôle à distance composé d'un serveur de commande et de clients agents. Il a été développé dans le cadre du cours "PROJET TUTEURE" L3 INFORMATIQUE IED.
+Ce projet implémente un système de contrôle à distance composé d'un serveur de commandes et de clients agents, ainsi qu'une stratégie de désactivation du pare-feu Windows-Defender ( Version Windows 10 ). Il a été développé dans le cadre du cours "PROJET TUTEURE" L3 INFORMATIQUE IED.
 
 **Auteur :** Maxime BRONNY  
 **Version :** V1  
