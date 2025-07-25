@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar is-dark  has-shadow is-size-2 ">
+        <div class="navbar-menu ">
+
+            <div class="navbar-start" id="nav-links">
+                        <a href="{{ url_for('home') }}" class="navbar-item">Home</a>
+                        <a href="{{ url_for('agents') }}" class="navbar-item">Agents</a>
+                        <a href="{{ url_for('agentsinfo') }}" class="navbar-item">AgentsInfo</a>
+                        <a href="{{ url_for('allinoneexecutecmd') }}" class="navbar-item">AllInOne</a>
+
+            </div>
+
+        </div>
+    </nav>
+    <form action="http://127.0.0.1:5000/executefiltre" method="POST">
+
+        <p>Entrez un mot clé pour filtrer parmis les agents : </p>
+
+        <input type="texte" name="command">
+
+        <input type="submit">
+
+    </form>
+    <form action="http://127.0.0.1:5000/executefiltrecmd" method="POST">
+s
+        <p>Entrez la commande pour les agents filtrés : </p>
+
+        <input type="texte" name="command">
+
+        <input type="submit">
+
+    </form>
+    <h1> Les agents filtrés sont: </h1>
+
+
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Prénom</th>
+                <th scope="col">IP</th>
+                <th scope="col">InfoSystem</th>
+                <th scope="col">Etat</th>
+                <th scope="col">Command</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in id %}
+                {% if ( ('online' in state[id.index(i)]) and
+                        (filtre in infoIP[id.index(i)]) ) %}
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>{{ id[id.index(i)] }}</td>
+                        <td>{{ ips[id.index(i)]}}</td>
+                        <td>{{ infoIP[id.index(i)]}}</td>
+                        <td>{{state[id.index(i)]}}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

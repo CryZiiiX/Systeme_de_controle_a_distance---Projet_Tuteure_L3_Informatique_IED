@@ -1,0 +1,56 @@
+# Fichiers binaires exécutables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de logs
+*.log
+*.txt
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+
+# Fichiers temporaires Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Fichiers sensibles (potentiellement dangereux)
+# Décommentez si vous ne voulez pas partager ces fichiers
+# *.ps1
+# *.bat
+# *.vbs
+
+# Fichiers d'environnement
+.env
+.venv
+env/
+venv/
+
+# Dossiers de configuration IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+*~
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old 
