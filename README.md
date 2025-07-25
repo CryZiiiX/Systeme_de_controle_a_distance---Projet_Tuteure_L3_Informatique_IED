@@ -1,3 +1,5 @@
+![Présentation du projet](./images/up.png)
+
 # Projet Tuteuré - Système de Contrôle à Distance
 
 ## Description
