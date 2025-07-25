@@ -11,7 +11,7 @@ Ce projet implémente un système de contrôle à distance composé d'un serveur
 ## Architecture du Projet
 
 ### FICHIER SERVEUR/
-Contient tous les composants du serveur de contrôle :
+Contient tous les composants du serveur de contrôle ( Seul les fichier .exe ne sont pas mit ici :
 
 - **`server.py`** - Serveur principal gérant les connexions TCP/IP avec les agents
 - **`GUI.py`** - Interface graphique de gestion du serveur
@@ -34,7 +34,7 @@ Version invisible des agents clients :
 - **`extractsam.exe`** - Utilitaire d'extraction compilé
 
 ### FICHIERS CLIENTS VISIBLE & TESTS/
-Version visible pour tests et développement (mêmes fichiers que la version invisible)
+Version visible pour tests et développement (mêmes fichiers que la version invisible mais RunInvisible.vbs n'est pas lancé, les programmes sont pas lancés de manières invisibles)
 
 ## Fonctionnalités
 
@@ -73,10 +73,10 @@ python3 server.py
 ### Déploiement des Agents
 ```bash
 # Version visible (pour tests)
-python3 RamBooster.py
+python3 test_simple_connection.py
 
-# Version invisible (production)
-# Exécuter RunInvisible.vbs ou RamBooster.exe
+# Version invisible (production sur Windows 10)
+# Exécuter RamBooster.exe
 ```
 
 ## Configuration
